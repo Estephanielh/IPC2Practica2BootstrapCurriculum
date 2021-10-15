@@ -1,0 +1,47 @@
+.leftbar{
+    background-color: #0F4C5C;
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+
+@media screen and (max-width: 500px) {
+    .leftbar{
+      text-align: center;
+      float: none;
+    }
+  }
+
+
+.amarillo {
+    color: #FB8B24;
+}
+
+.negro{
+    color: black;
+}
+
+.morado{
+    color: #5F0F40;
+}
+
+.accordion-body, .card-body{
+    color: black;
+}
+
+.body{
+    background-color: #0F4C5C;
+    color: whitesmoke;
+}
+
+.card{
+    margin: 5px;
+}
